@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "laravel/framework": "^8",
+        "laravel/framework": "^6|^7|^8",
+        "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
         "hacoidev/ophim-core": "^1.0.0"
     },
     "license": "MIT",
