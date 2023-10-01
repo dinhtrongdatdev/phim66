@@ -1,0 +1,32 @@
+{
+    "name": "ophimcms/theme-phim66",
+    "description": "Phim66 Themes",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ophimcms",
+            "email": "admin@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^6|^7|^8",
+        "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
+        "hacoidev/ophim-core": "^1.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ophim\\ThemePhim66\\": "src/",
+            "Ophim\\ThemePhim66\\Database\\Factories\\": "database/factories/",
+            "Ophim\\ThemePhim66\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ophim\\ThemePhim66\\ThemePhim66ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
